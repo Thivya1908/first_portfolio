@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style1.css">
+    <!-- Icon Link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main -->
+    <main>
+        <!-- Sidebar -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avtar-box">
+                    <img src="./img/images1.jpg" width="80" alt="Avatar">
+                </figure>
+                <div class="info-contents">
+                    <h1 class="name" title="Thivya Dharshini">Thivya Dharshini</h1>
+                    <p class="title">Web Developer</p>
+                </div>
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <i class="ri-arrow-down-s-line"></i>
+                </button>
+            </div>
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="ri-mail-fill"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:thivyaweb@gmail.com" class="contact-link">thivyaweb@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="ri-phone-fill"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+919098967091" class="contact-link">+91 9098967091</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="ri-calendar-fill"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2002-02-08">February 08, 2002</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="ri-map-pin-fill"></i>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Egmore, Chennai</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <i class="ri-telegram-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!--main content-->
+        <div class="main-content"></div>
+        <!--navbar-->
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Blog</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+            </ul>
+        </nav>
+        <!--about-->
+        <article class="about active" data-page="about">
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+            <selection class="about-text">
+                <p>
+                    I'm a Creative director and UI/UX designer from Chennai,India
+                    I'm enjoy
+                    turning complex problem into simple, beautiful and intuitive designs.
+                </p>
+                <p>
+                    Our team builds tailored websites that meet your unique needs and goals.
+                    We create mobile-friendly websites that provide an exceptional user experience across all devices.
+                </p>
+            </selection>
+        <!--service-->
+        <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+            <ul class="service-list">
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src=".\img\icon-design.png" alt="design icon" width="40">
+                    </div>
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Web Design</h4>
+                        <p class="service-item-text"> We design and develop custom web applications that streamline processes and improve efficiency.</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src=".\img\icon-dev.png" alt="web development" width="40">
+                    </div>
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Web Development</h4>
+                        <p class="service-item-text"> we're passionate about crafting exceptional online experiences that captivate and engage. Our team of expert web developers is dedicated to 
+                            delivering tailored solutions that meet your unique business needs.</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src=".\img\icon-app.png" alt="mobile app icon" width="40">
+                    </div>
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Mobile apps</h4>
+                        <p class="service-item-text"> We design and develop tailored mobile apps that meet your unique business needs.
+                            Our experts create native and cross-platform apps for both iOS and Android devices.</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src=".\img\icon-photo.png" alt="camera icon" width="40">
+                    </div>
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Photography</h4>
+                        <p class="service-item-text"> we're passionate about capturing the beauty and emotion of life's special moments. 
+                            Our team of expert photographers is dedicated to delivering high-quality, personalized images that exceed your expectations.</p>
+                    </div>
+                </li>   
+            </ul>
+        </section>
+        <!--testimonials-->
+        <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+            <ul class="testimonials-list has-scrollbar">
+                <li class="testimonials-item">
+                    <div class="content-card" data-testmonials-item>
+                        <figure class="testimonials-avtar-box">
+                            <img src="./img/avatar-1.png" alt="Aruni" width="60" data-testimonials-avtar>
+                        </figure>
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Aruni</h4>
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>We're looking for talented and passionate individuals to join our team! As a team member, 
+                                    you'll have the opportunity to work on exciting projects, 
+                                    collaborate with a dynamic team, and contribute to our mission.
+                                    We create mobile-friendly websites that provide an exceptional user experience across all devices. </p>
+                            </div>
+                    </div>
+                </li>
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avtar-box">
+                            <img src="./img/avatar-2.png" alt="Kavi Priya" width="60" data-testimonials-avtar>
+                        </figure>
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Kavi Priya</h4>
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>we believe that diversity and inclusion are essential to creating a positive and productive work environment.
+                                 We welcome applications from diverse candidates and are committed to creating an inclusive workplace culture.
+                                 Get a glimpse into what it's like to work at Your Company Name. 
+                                  </p>
+                            </div>
+                    </div>
+                </li>
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avtar-box">
+                            <img src="./img/avatar-3.png" alt="Shanmathi" width="60" data-testimonials-avtar>
+                        </figure>
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Shanmathi</h4>
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>We're always looking for new and better ways to do things.
+                                    We believe that teamwork is essential to achieving our goals.
+                                    we are committed to doing the right thing, even when it's hard and treat each other with kindness, empathy, and understanding.
+                                </p>
+                            </div>
+                    </div>
+                </li>
+                <li class="testimonials-item">
+                    <div class="content-card" data-testimonials-item>
+                        <figure class="testimonials-avtar-box">
+                            <img src="./img/avatar-4.png" alt="Daphne" width="60" data-testimonials-avtar>
+                        </figure>
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Daphne</h4>
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>We're always looking for talented and motivated individuals to join our team.
+                                    We're committed to making our hiring process as smooth and transparent as possible and We 
+                                    provide a comprehensive onboarding process to ensure a smooth transition.
+                                </p>
+                            </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--testimonials model-->
+        <div class="model-container" data-model-container>
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-model">
+                <button class="model-close-btn" data-model-close-btn>
+                    <i class="ri-close-line"></i> <!-- Use remixicon for X -->
+                </button>
+                <div class="model-img-wrapper">
+                    <figure class="model-avatar-box">
+                        <img src="./img/avatar-1.png"alt="Aruni" width="80" data-model-img>
+                    </figure>
+                    <img src="./img/icon-quote.png" alt="quote icon">
+                </div>
+                <div class="model-content">
+                    <h4 class="h3 model-title" data-model-title>Aruni</h4>
+                    <time datetime="2023-02-08"> 8 February,2023</time>
+                    <div data-model-text>
+                        <p>
+                            Aruni is a highly skilled web developer with a passion for creating innovative and user-friendly digital solutions.
+                             With 8 years of experience in the industry, Aruni has developed a strong expertise in specific areas of expertise in
+                              front-end development, back-end development, full-stack development.
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+        <!-- Testimonials Model for Kavi Priya -->
+<div class="model-container" data-model-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-model">
+        <button class="model-close-btn" data-model-close-btn>
+            <i class="ri-close-line"></i> <!-- Use remixicon for X -->
+        </button>
+        <div class="model-img-wrapper">
+            <figure class="model-avatar-box">
+                <img src="./img/avatar-2.png" alt="Kavi Priya" width="80" data-model-img>
+            </figure>
+            <img src="./img/icon-quote.png" alt="quote icon">
+        </div>
+        <div class="model-content">
+            <h4 class="h3 model-title" data-model-title>Kavi Priya</h4>
+            <time datetime="2023-03-15">15 March, 2023</time>
+            <div data-model-text>
+                <p>
+                    Kavi Priya is a dedicated professional who excels at fostering diversity and inclusion within her team. 
+                    She brings a wealth of experience in creating a welcoming and positive work environment. 
+                    Her commitment to building inclusive workplace cultures has been instrumental in her success.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Testimonials Model for Shanmathi -->
+<div class="model-container" data-model-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-model">
+        <button class="model-close-btn" data-model-close-btn>
+            <i class="ri-close-line"></i> <!-- Use remixicon for X -->
+        </button>
+        <div class="model-img-wrapper">
+            <figure class="model-avatar-box">
+                <img src="./img/avatar-3.png" alt="Shanmathi" width="80" data-model-img>
+            </figure>
+            <img src="./img/icon-quote.png" alt="quote icon">
+        </div>
+        <div class="model-content">
+            <h4 class="h3 model-title" data-model-title>Shanmathi</h4>
+            <time datetime="2023-05-20">20 May, 2023</time>
+            <div data-model-text>
+                <p>
+                    Shanmathi is an innovative thinker who consistently strives for excellence. 
+                    With her strong belief in teamwork, she has successfully led projects to achieve outstanding results. 
+                    Her values of integrity and empathy have made her a cherished member of every team she's been part of.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Testimonials Model for Daphne -->
+<div class="model-container" data-model-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-model">
+        <button class="model-close-btn" data-model-close-btn>
+            <i class="ri-close-line"></i> <!-- Use remixicon for X -->
+        </button>
+        <div class="model-img-wrapper">
+            <figure class="model-avatar-box">
+                <img src="./img/avatar-4.png" alt="Daphne" width="80" data-model-img>
+            </figure>
+            <img src="./img/icon-quote.png" alt="quote icon">
+        </div>
+        <div class="model-content">
+            <h4 class="h3 model-title" data-model-title>Daphne</h4>
+            <time datetime="2023-08-10">10 August, 2023</time>
+            <div data-model-text>
+                <p>
+                    Daphne is an enthusiastic and motivated individual who excels at making hiring processes smooth and transparent. 
+                    Her ability to provide comprehensive onboarding ensures a seamless transition for new team members. 
+                    Her dedication to fostering growth has earned her a reputation for excellence.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+        
+        <!--CLIENT SECTION-->
+        <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+            <ul class="clients-list has-scrollbar">
+                
+                <li class="clients-items">
+                    <a href="a">
+                        <img src="./img/logo-7-color.png" alt="client logo">
+                    </a>
+                </li>
+
+                <li class="clients-items">
+                    <a href="#">
+                        <img src="./img/logo-8-color.png" alt="client logo">
+                    </a>
+                </li>
+
+                <li class="clients-items">
+                    <a href="#">
+                        <img src="./img/logo-9-color.png" alt="client logo">
+                    </a>
+                </li>
+
+                <li class="clients-items">
+                    <a href="#">
+                        <img src="./img/logo-10-color.png" alt="client logo">
+                    </a>
+                </li>
+
+                <li class="clients-items">
+                    <a href="#">
+                        <img src="./img/logo-11-color.png" alt="client logo">
+                    </a>
+                </li>
+
+                <li class="clients-items">
+                    <a href="#">
+                        <img src="./img/logo-12-color.png" alt="client logo">
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+    </article>          
+    <!--resume-->
+    <article class="resume" data-page="resume">
+        <header>
+            <h1 class="h1 article-title">Resume</h2>
+        </header>
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <i class="ri-book-open-fill"></i>
+            </div>
+            <h3 class="h3">Education</h3>
+        </div>
+        <ol class="timeline-list">
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University school of the arts</h4>
+                <span>2007-2008</span>
+                <p class="timeline-text">
+    As a dedicated and passionate individual, I have always been driven to excel in my studies. Throughout my academic journey,
+     I have been consistently fascinated by the world of computer science and web development. 
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Ethiraj College For women</h4>
+                <span>2020-2023</span>
+                <p class="timeline-text">
+    My undergraduate studies in Computer Science have provided me with a solid foundation in programming languages, data structures, and software engineering.
+     I have also had the opportunity to work on various projects, including web development, mobile app development, and artificial intelligence.
+
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Bishop Heber College</h4>
+                <span>2023-2025</span>
+                <p class="timeline-text">
+    I have developed a strong passion for web development, 
+    particularly in the areas of front-end and back-end development. 
+                </p>
+            </li>
+
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">St.Johns Girls Higher Secondary School</h4>
+                <span>2007-2008</span>
+                <p class="timeline-text">
+    I have gained hands-on experience with programming languages such as HTML, CSS, JavaScript, and PHP, 
+    as well as frameworks like React and Angular. 
+    My undergraduate thesis project, which focused on developing a web-based application using machine learning algorithms, was a highlight of my academic career.
+                </p>
+            </li>
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">kamalavathi Higher Secondary School</h4>
+                <span>2006-2003</span>
+                <p class="timeline-text">
+    I have been actively involved in various extracurricular activities, including participating in hackathons, 
+    attending web development conferences, and contributing to open-source projects. 
+                </p>
+            </li>
+        </ol>
+    </section>
+
+    <section class="timeline">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <i class="ri-book-open-fill"></i>
+            </div>
+            <h3 class="h3">Experience</h3>  
+        </div>
+
+        <ol class="timeline-list">
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Creative Director</h4>
+                <span>2018-2019</span>
+                <p class="timeline-text">
+                    Throughout my career as a web developer, I have had the privilege of working on a diverse range of projects 
+                    that have not only challenged me but also helped me grow as a professional. With over [number] years of experience in the industry, 
+                    I have developed a strong expertise in front-end and back-end development, with a particular focus on responsive web design.
+                </p>
+            </li>
+        
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Art Director</h4>
+                <span>2020-2021</span>
+                <p class="timeline-text">
+                    I have been fortunate to have worked with a variety of clients and technologies, 
+                    including [list specific technologies or clients]. 
+                    These experiences have taught me the importance of adaptability, creativity, and attention to detail, and have helped me develop
+                     a strong foundation in web development that I continue to build upon to this day.
+                </p>
+            </li>
+        
+            <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web Designer</h4>
+                <span>2021-2022</span>
+                <p class="timeline-text">
+                    One of my most notable experiences was working as a lead web developer for [company name],
+                     where I was responsible for leading a team of developers to design and 
+                    develop a cutting-edge e-commerce website for a major retail client.
+                </p>
+            </li>
+        </ol>
+    </section>
+
+    <!--skill-->
+    <section class="skills">
+        <h3 class="h3 skills-title">My skills</h3>
+        <ul class="skills-list content-card">
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5"> Web Design</h5>
+                    <data value="85">85%</data>
+
+                </div>
+                <div class="skills-progress-bg">
+                    <div class="skills-progress-fill" style="width: 80%"></div>
+                </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5"> Graphic Designer</h5>
+                    <data value="85">72%</data>
+
+                </div>
+                <div class="skills-progress-bg">
+                    <div class="skills-progress-fill" style="width: 72%"></div>
+                </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5"> Branding</h5>
+                    <data value="85">90%</data>
+
+                </div>
+                <div class="skills-progress-bg">
+                    <div class="skills-progress-fill" style="width: 90%"></div>
+                </div>
+            </li>
+
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">wordPress</h5>
+                    <data value="85">50%</data>
+
+                </div>
+                <div class="skills-progress-bg">
+                    <div class="skills-progress-fill" style="width: 50%"></div>
+                </div>
+            </li>
+
+        </ul>
+        </section>
+
+    </article>
+
+    <!--portfolio-->
+    <article class="portfolio" data-page="portfolio">
+        <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+            <ul class="filter-list">
+                <li class="filter-item">
+                    <button class="active" data-filter-btn>All</button>
+                </li>
+                <li class="filter-item">
+                    <button data-filter-btn>Web design</button>
+                </li>
+                <li class="filter-item">
+                    <button data-filter-btn>Applications</button>
+                </li>
+                <li class="filter-item">
+                    <button data-filter-btn>Web development</button>
+                </li>
+                <li class="filter-item">
+                    <button data-filter-btn>games</button>
+                </li>
+            </ul>
+
+            <div class="filter-select-box">
+                <button class="filter-select" data-select>
+                    <div class="select-value" data-select-value>Select category</div>
+                    <div class="select-icon">
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                </button>
+                <ul class="select-list">
+
+                    <li class="select-item">
+                        <button data-select-item>All</button>
+                    </li>
+
+                    <li class="select-item">
+                        <button data-select-item>Web design</button>
+                    </li>
+
+                    <li class="select-item">
+                        <button data-select-item>Appications</button>
+                    </li>
+                    
+                    <li class="select-item">
+                        <button data-select-item>Web development</button>
+                    </li>
+                    <li class="select-item">
+                        <button data-select-item>Games</button>
+                    </li>
+
+                </ul> 
+            </div>
+            <ul class="project-list">
+                <li class="project-item active" data-filter-item-data-category="web design">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/project-1.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Product Page</h3>
+                        <p class="project-category">Web Design</p>
+                    </a>
+                </li> 
+
+                <li class="project-item active" data-filter-item-data-category="web development">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/project-2.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Nixie Tube cLock</h3>
+                        <p class="project-category">Web Development</p>
+                    </a>
+                </li> 
+
+
+                <li class="project-item active" data-filter-item-data-category="games">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/project-11.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Tic-Tac-Toe</h3>
+                        <p class="project-category">Games</p>
+                    </a>
+                </li> 
+
+
+                <li class="project-item active" data-filter-item-data-category="web development">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/logo-4-color.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Toast notification</h3>
+                        <p class="project-category">Web Development</p>
+                    </a>
+                </li> 
+
+                <li class="project-item active" data-filter-item-data-category="web design">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/project-10.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Amazon Prime Video</h3>
+                        <p class="project-category">web design</p>
+                    </a>
+                </li> 
+
+                <li class="project-item active" data-filter-item-data-category="web games">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/project-12.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Flip a Coin</h3>
+                        <p class="project-category">web games</p>
+                    </a>
+                </li> 
+
+                <li class="project-item active" data-filter-item-data-category="applications">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/project-13.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Age Calculator</h3>
+                        <p class="project-category">Applications</p>
+                    </a>
+                </li> 
+
+                <li class="project-item active" data-filter-item-data-category="web design">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div>
+                            <img src="./img/project-8.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Light House</h3>
+                        <p class="project-category">web design</p>
+                    </a>
+                </li> 
+
+                <li class="project-item active" data-filter-item-data-category="applications">
+                    <a href="#">
+                        <figure class="project-img">
+                            <div class="project-item-icon-box">
+                                <i class="ri-eye-fill"></i>
+                            </div> 
+                            <img src="./img/project-13.png" loading="lazy">
+                        </figure>
+                        <h3 class="project-title">Calendar</h3>
+                        <p class="project-category">Applications</p>
+                    </a>
+                </li> 
+            </ul>
+
+        </section>
+    </article>
+
+    <article class="blog" data-page="blog">
+        <header>
+            <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+            <ul class="blog-posts-list">
+                <li class="blog-posts-item">
+                    <a href="#">
+                        <figure class="blog-banner-box">
+                            <img src="./img/blog1.jpg" loading="lazy">
+                        </figure>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <p class="blog-category"> Design</p>                                </p>
+                                <span class="dot"></span>
+                                <time datetime="2023-02-24">Feb 23, 2024</time>
+                            </div>
+                            <h3 class="h3 blog-item-title">Design conference in 2023</h3>
+                            <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia odio in, vitae incidunt, vero facilis, optio beatae reiciendis nam iste cumque ea provident </p>
+                        </div>
+                    </a>   
+                </li>
+
+                <li class="blog-posts-item">
+                    <a href="#">
+                        <figure class="blog-banner-box">
+                            <img src="./img/blog2.jpg" loading="lazy">
+                        </figure>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <p class="blog-category"> Design</p>                                </p>
+                                <span class="dot"></span>
+                                <time datetime="2023-02-24">Feb 23, 2024</time>
+                            </div>
+                            <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                            <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia odio in, vitae incidunt, vero facilis, optio beatae reiciendis nam iste cumque ea provident </p>
+                        </div>
+                    </a>   
+                </li>
+
+                <li class="blog-posts-item">
+                    <a href="#">
+                        <figure class="blogmeta-banner-box">
+                            <img src="./img/blog3.jpg" loading="lazy">
+                        </figure>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <p class="blog-category"> Design</p>                                </p>
+                                <span class="dot"></span>
+                                <time datetime="2023-02-24">Feb 23, 2024</time>
+                            </div>
+                            <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                            <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia odio in, vitae incidunt, vero facilis, optio beatae reiciendis nam iste cumque ea provident </p>
+                        </div>
+                    </a>   
+                </li>
+
+                <li class="blog-posts-item">
+                    <a href="#">
+                        <figure class="blog-banner-box">
+                            <img src="./img/blog4.jpg" loading="lazy">
+                        </figure>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <p class="blog-category"> Design</p>                                </p>
+                                <span class="dot"></span>
+                                <time datetime="2023-02-24">Feb 23, 2024</time>
+                            </div>
+                            <h3 class="h3 blog-item-title">Introduction in Machine learning</h3>
+                            <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia odio in, vitae incidunt, vero facilis, optio beatae reiciendis nam iste cumque ea provident </p>
+                        </div>
+                    </a>   
+                </li>
+
+                <li class="blog-posts-item">
+                    <a href="#">
+                        <figure class="blog-banner-box">
+                            <img src="./img/blog5.jpg" loading="lazy">
+                        </figure>
+                        <div class="blog-content">
+                            <div class="blog-category">
+                                <p class="blog-meta"> Design</p>                                </p>
+                                <span class="dot"></span>
+                                <time datetime="2023-02-24">Feb 23, 2024</time>
+                            </div>
+                            <h3 class="h3 blog-item-title">Art of Spacing</h3>
+                            <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia odio in, vitae incidunt, vero facilis, optio beatae reiciendis nam iste cumque ea provident </p>
+                        </div>
+                    </a>   
+                </li>
+
+                <li class="blog-posts-item">
+                    <a href="#">
+                        <figure class="blog-banner-box">
+                            <img src="./img/blog6.jpg" loading="lazy">
+                        </figure>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <p class="blog-category"> Design</p>                                </p>
+                                <span class="dot"></span>
+                                <time datetime="2023-02-24">Feb 23, 2024</time>
+                            </div>
+                            <h3 class="h3 blog-item-title">Business conference in 2020</h3>
+                            <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia odio in, vitae incidunt, vero facilis, optio beatae reiciendis nam iste cumque ea provident </p>
+                        </div>
+                    </a>   
+                </li>
+            </ul>
+        </section>
+
+    </article>
+        
+    <!--contact-->
+    <article class="contact" data-page="contact">
+
+        <header>
+            <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+            <iframe src="https://www.google.com/maps/place/Ethiraj+College+For+Women/@13.0626482,80.257155,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266138abd3357:0xd00cfea9a85f9abd!8m2!3d13.0626482!4d80.257155!16s%2Fm%2F047rcf6?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+            width="400" height="300" loading="lazy">
+            </iframe>
+        </section>
+        <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+            <form action="#" class="form" data-form>
+                <div class="input-wrapper">
+                    <input type="text" name="fullname" class="form-input" placeholder="Full Name" required data-form-input>
+                    <input type="text" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                </div>
+
+                <textarea name="message" class="form-input" required data-form-input></textarea>
+                <button class="form-btn" type="Submit" disabled data-form-btn>
+                    <i class="ri-send-plane-fill"></i>
+                    <span>Send Message</span>
+                </button>
+            </form>
+        </section>
+    </article>
+
+
+    </div>
+        </main>
+    <!-- JS Link -->
+    <script src="./script1.js"></script>
+</body>
+</html>
